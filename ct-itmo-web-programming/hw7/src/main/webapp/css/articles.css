@@ -1,0 +1,48 @@
+.articles .title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--caption-color);
+}
+
+.articles .information {
+    font-size: 0.85rem;
+    margin-top: 0.4rem;
+    color: gray;
+}
+
+.articles .body {
+    border-left: 4px solid var(--border-color);
+    padding-left: 0.6rem;
+}
+
+
+.articles .footer {
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius);
+    display: flow-root;
+    padding: 0.5rem;
+}
+
+.articles .footer .left {
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100px;
+}
+
+.articles .footer .right {
+    float: right;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 160px;
+}
+.articles .footer .left .positive-score {
+    color: green;
+    font-weight: bold;
+}
+.articles li {
+    list-style-type: none;
+    margin-top: 1.5rem;
+}

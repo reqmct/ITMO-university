@@ -1,0 +1,3 @@
+INSERT INTO user (id, admin, creation_time, login, name, password_sha) VALUES
+                                                                           (1, b'0', NOW(), 'mike', 'Mike Mirzayanov', 'e6f6a4d6872ccf75e5e2cced29eb164a7c7cb604'),
+                                                                           (2, b'0', NOW(), 'tester', 'Tester Testerov', 'ee8ad9a2a6f0ba2cfd6b294e5d4634ddec6e9de3');

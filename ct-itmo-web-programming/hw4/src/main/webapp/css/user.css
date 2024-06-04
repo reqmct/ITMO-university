@@ -1,0 +1,17 @@
+.user_elements .user_page {
+    border: var(--boder);
+    border-radius: var(--border-radius);
+    padding: 0.5rem;
+    background-image: url("/img/no-title.jpg");
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+.user_elements .user_page .link_to_user {
+    font-size: 1.75rem;
+}
+
+.user_elements .steps a {
+    font-size: 4rem;
+    text-decoration: none;
+}

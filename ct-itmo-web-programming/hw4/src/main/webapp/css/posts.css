@@ -1,0 +1,6 @@
+ul {
+    list-style-type: none;
+}
+ul .post_element {
+    margin-bottom: 2rem;
+}
